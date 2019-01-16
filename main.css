@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+html body{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+#container{
+    width: 960px;
+    margin: 0 auto;
+}
+h1, h2, h3{
+    color:#002b5a;
+    margin-bottom: 42px;
+    text-transform: capitalize;
+}
+h1{
+    font-size: 42px;
+    font-weight: 200;
+}
+h2{
+    font-size: 40px;
+    font-weight: 200;
+}
+h3{
+    font-size: 15px;
+    font-weight: normal;
+}
+/*section 2*/
+#stateFinder > h2{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+#stateFinder > option{
+    color:#002b5a;
+    font-size: 13px;
+}
+
+#stateFinder > p {
+    color:#002b5a;
+    margin-bottom: 5px;
+    font-size: 12px;
+}
+div#stateFinder {
+    width: 250px;
+    border: solid;
+    text-align: center;
+    display: inline-block;
+    float: left;
+    margin:10px;
+    padding: 10px
+}
+
+
+div#section1content {
+    border: solid;
+    width: 600px;
+    display: inline-block;
+    float: left;
+}
+
+div#section1 {
+    width: 100%;
+    border: solid;
+    float:left; 
+}
+/*section 2 */
+#section2{
+    border: solid;
+    }
+.sec2products {
+    display: inline-block;
+    width: 287px;
+    padding: 10px;
+    float:left;
+}
+#section2 > div > a {
+    background-color: #fff;
+    color: #002b5a;
+    font-size: 14px;
+    border-radius: 3px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.25), 0 2px #fff inset;
+    padding: 10px;
+}
+
+/*section 3 */
+.sec2products {
+    display: inline-block;
+    width: 287px;
+    padding: 10px;
+}
+
+div#section2 {
+}
+
+#section2 > div > a {
+    background-color: #fff;
+    color: #002b5a;
+    font-size: 14px;
+    border-radius: 3px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.25),0 2px #fff inset;
+    padding: 10px;
+}
+
+#section3 > ul > li {
+    width: 175px;
+    border: solid;
+    display: inline-block;
+    float: left;
+    margin: 5px;
+    padding: 15px;
+}
+
+img.productImage {
+    width: 100%;
+}
+#filterBy{
+    float: right;  
+    width: 100%;
+}
